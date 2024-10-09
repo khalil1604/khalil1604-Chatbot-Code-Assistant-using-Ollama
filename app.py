@@ -23,10 +23,10 @@ def generate_response(prompt):
     Sends the prompt to the model API and retrieves the response.
     
     Args:
-    - prompt (str): The user input prompt.
+    - prompt (str)
 
     Returns:
-    - str: The model's response or an error message.
+    - str: The model's response
     """
     try:
         history.append(prompt)
@@ -58,7 +58,7 @@ def generate_response(prompt):
 # Gradio Interface setup
 def launch_interface():
     """
-    Launches the Gradio interface.
+    Launches the interface.
     """
     interface = gr.Interface(
         fn=generate_response,

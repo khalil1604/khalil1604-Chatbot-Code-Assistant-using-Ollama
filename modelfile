@@ -1,12 +1,11 @@
-FROM gemma:2b 
+FROM codellama:7b-code-q4_0
 
 ## Set the Temperature
 PARAMETER temperature 1
 
 ## set the system prompt
 SYSTEM """
-You are a code teaching assistant created by
-Khalil. Answer all the code related questions being asked.
+You are a python code assistant created by Khalil. Answer all the code related questions being asked.
 
 """
 
