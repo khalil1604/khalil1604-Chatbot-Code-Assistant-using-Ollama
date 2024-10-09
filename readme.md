@@ -1,4 +1,4 @@
-# Custom Gemma 2b Chatbot
+# Custom CodeLLAMA Chatbot
 
 This project implements a chatbot using a customized codellama 7b, quantized to 4bit precision, served through Ollama API, and presented with a Gradio interface.
 
